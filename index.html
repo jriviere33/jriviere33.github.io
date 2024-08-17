@@ -1,1 +1,92 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jacob's Portfolio Page</title>
+</head>
+<body>
+    <h1>Jacob Riviere - Project Portfolio</h1>
+
+    <img src="Headshot.jpg" height="299px" width="176px">
+
+    <h2>Introduction</h2>
+    <p>My name is Jacob Riviere and I am a rising senior at Carnegie Mellon University with a Statitics and Machine Learning major and a Robotics minor. <br>Below you will find some relevant projects</p>
+
+    <h2>Current Projects</h2>
+
+    <h3>Image Generation from Captions</h3>
+    <ul>
+        <li>The project is two fold, I have generated images from captions and my partner has generated captions from images</li>
+        <li>Project documentation can be found here: <a href='https://drive.google.com/file/d/1Rhh5z1tYvJR-tRDzVflLAtyBK84zCa1n/view?usp=sharing'>project doc</a></li>
+        <li>The Microsoft COCO dataset was used for training</li>
+        <li>In regards to the text to image task, the CLIP-GLaSS framework was implemented as the baseline</li>
+        <li>Improvement over the baseline has been achieved through the implementation of Imagen and LAFITE</li>
+        <li>Samples from SOTA image generation models Dall-E 2 and ERNIE-ViLG were also included for reference</li>
+    </ul>
+
+    <h3>Undergraduate Research</h3>
+    <ul>
+        <li>Currently researching under professor Larry Heimann in the IS department</li>
+        <li>Implemented various models to perform multilabel text classification including: SVM, Logistic Regression, Naive Bayes, Decision Trees, and KNN</li>
+        <li>Exploring Transfer Learning techniques with pretrained BERT models, as dataset size is currently an issue</li>
+        <li>Github with current progress: <a href='https://github.com/jriviere33/Ind_Study'>research progress</a></li>
+    </ul>
+
+    <h2>Past Projects</h2>
+
+    <h3>Video Game Project</h3>
+    <ul>
+        <li>Used the Python module Pygame and OOP to code a side-scrolling video game that includes multiple enemies with different behaviors</li>
+        <li>The program also uses smart enemies that track the user movement to constantly attack</li>
+        <li>Game features include three levels, power-ups, and collectable checkpoints, with the final level being a faceoff with a boss enemy</li>
+    </ul>
+
+    <h3>Sentiment Analysis Project</h3>
+    <ul>
+        <li>Coded binary logistic regression to implement a working NLP system which performed sentiment polarity analysis</li>
+        <li>Received various movie reviews as input and using logistic regression, learned to classify the given reviews as positive or negative</li>
+        <li>Performed feature engineering on the reviews to create a bag of words representation and word embedding based representation of the data</li>
+    </ul>
+
+    <h3>Image Classification Project</h3>
+    <ul>
+        <li>Coded a single layer neural network from scratch to classify a subset of images in the CIFAR-10 dataset</li>
+        <li>Used a sigmoid activation function for the hidden layer and softmax on the output layer</li>
+        <li>Implemented Adagrad via backpropagation to optimize the objective function and thus train the neural network</li>
+    </ul>
+
+    <h3>Named Entity Recognition Project</h3>
+    <ul>
+        <li>Coded Hidden Markov Models to implement a named entity recognition system</li>
+        <li>Classified named entities as a person, location, or organization</li>
+        <li>Used the English and French subsets of the WikiANN dataset to train</li>
+        <li>The Hidden Markov Model parameters were learned given the training data</li>
+        <li>Then the forward backward algorithm was implemented to perform a smoothing query</li>
+        <li>This was then used to predict the hidden tags for a sequence of words</li>
+    </ul>
+
+    <h3>Reinforcement Learning Project</h3>
+    <ul>
+        <li>Implemented Q-learning with linear function approximation to solve the mountain car environment
+            <li>The mountain car environment consists of a car with a set amount of power which is in a valley</li>
+            <li>To solve the problem the car must learn how far it must reverse up the hill behind it in order to leverage gravity and power to reach a flag on the hill in front of the car</li>
+        </li>
+        <li>The epsilon-greedy method was used for action selection</li>
+    </ul>
+
+    <h3>Decision Tree Project</h3>
+    <ul>
+        <li>Coded a decision tree to perform various classification tasks, using mutual information as a splitting criterion and max depth as a stopping mechanism</li>
+        <li>Used student scores on homework and tests to predict whether they will get an A in the class</li>
+        <li>Received data on different bills politicians had voted on to predict whether a given politician is Democrat or Republican</li>
+        <li>Took in data on various characteristics of mushrooms to predict whether the mushroom is poisonous</li>
+    </ul>
+
+    <h3>Language Model Project</h3>
+    <ul>
+        <li>Wrote a Python program that uses machine learning techniques to recognize patterns in text files</li>
+        <li>Makes predictions based on the data using bigrams and trigrams</li>
+    </ul>
+
+    <!--<a href="https://www.bostondynamics.com/products/spot">This is my favorite real robot</a>-->
+</body>
+</html>
