@@ -126,8 +126,12 @@ navigation_header:
   url: resume.pdf
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: Twitter
+  url: https://x.com/JacobRiviere14
+- title: LinkedIn
+  url: https://www.linkedin.com/in/jacob-riviere
+- title: GitHub
+  url: https://github.com/jriviere33
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://x.com/JacobRiviere14
