@@ -123,7 +123,7 @@ navigation_header:
 - title: Search
   url: /search/
 - title: chat
-  url: /chat/
+  url: /Chat/
 - title: CV
   url: resume.pdf
 
